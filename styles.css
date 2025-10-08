@@ -100,13 +100,27 @@ body {
     flex-direction: column; /* Вертикальное расположение элементов */
 }
 
-.section__text {
-    font-size: 18px; /* Размер шрифта группы */
-    color: #7f8c8d; /* Серый цвет текста */
+.section__title {
+    font-size: 24px; /* Размер шрифта группы */
+    color: #2c3e50; /* Темно-синий цвет текста */
     margin: 5px 0; /* Вертикальные отступы */
 }
 
-.section__label {
+.section__text {
+    font-size: 18px; /* Размер шрифта группы */
+    color: #2c3e50; /* Темно-синий цвет текста */
+    margin: 5px 0; /* Вертикальные отступы */
+}
+
+.list-section {
+    display: flex; /* Горизонтальное расположение навыков */
+    justify-content: center; /* Выравнивание по центру */
+    flex-wrap: wrap; /* Перенос на новую строку при необходимости */
+    gap: 15px; /* Расстояние между навыками */
+    margin: 30px 0; /* Вертикальные отступы */
+}
+
+.list-section__label {
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); /* Голубой градиентный фон */
     color: white; /* Белый цвет текста */
     padding: 12px 25px; /* Внутренние отступы */
