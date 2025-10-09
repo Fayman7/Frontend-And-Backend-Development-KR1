@@ -145,6 +145,19 @@ body {
     transform: translateY(-2px); /* Легкое поднятие элемента при наведении */
 }
 
+.section__button {
+    background-color: rgb(204, 204, 235);
+    color: #2c3e50;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;          /* скруглённые углы */
+    cursor: pointer;             /* курсор "рука" */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* лёгкая тень */
+    transition: all 0.2s ease;   /* плавные изменения */
+}
+
 .list-section {
     display: flex; /* Горизонтальное расположение навыков */
     justify-content: center; /* Выравнивание по центру */
