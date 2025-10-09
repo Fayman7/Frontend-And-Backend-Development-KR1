@@ -91,6 +91,13 @@ body {
     font-weight: 500; /* Средняя жирность шрифта */
 }
 
+.title {
+    font-size: 28px; /* Размер шрифта заголовка */
+    color: #2c3e50; /* Темно-синий цвет текста */
+    margin-bottom: 10px; /* Отступ снизу */
+    font-weight: 300; /* Легкое начертание шрифта */
+}
+
 .section {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); /* Светлый градиентный фон */
     padding: 25px; /* Внутренние отступы */
@@ -99,12 +106,6 @@ body {
     border-left: 5px solid #667eea; /* Синяя полоса слева */
     font-size: 16px; /* Размер шрифта текста */
     line-height: 1.8; /* Межстрочный интервал */
-}
-
-.section__title {
-    font-size: 24px; /* Размер шрифта группы */
-    color: #2c3e50; /* Темно-синий цвет текста */
-    margin: 5px 0; /* Вертикальные отступы */
 }
 
 .section__text {
