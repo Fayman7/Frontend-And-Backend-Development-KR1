@@ -96,6 +96,8 @@ body {
     color: #2c3e50; /* Темно-синий цвет текста */
     margin-bottom: 10px; /* Отступ снизу */
     font-weight: 300; /* Легкое начертание шрифта */
+    text-align: center; /* Выравнивание по центру */
+
 }
 
 .section {
@@ -132,7 +134,7 @@ body {
 }
 
 .section__link {
-    color: #2c3e50; /* Белый цвет текста ссылок */
+    color: #2c3e50; /* Темно-синий цвет текста ссылок */
     text-decoration: none; /* Убираем подчеркивание ссылок */
     padding: 12px 25px; /* Отступы внутри ссылок */
     border-radius: 25px; /* Скругленные углы (капсульная форма) */
@@ -141,7 +143,7 @@ body {
 }
 
 .section__link:hover {
-    background: rgba(0, 172, 252, 0.1); /* Полупрозрачный белый фон при наведении */
+    background: rgba(0, 172, 252, 0.1); /* Полупрозрачный голубой фон при наведении */
     transform: translateY(-2px); /* Легкое поднятие элемента при наведении */
 }
 
@@ -152,10 +154,10 @@ body {
     padding: 12px 24px;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 8px;          /* скруглённые углы */
-    cursor: pointer;             /* курсор "рука" */
+    border-radius: 8px; /* скруглённые углы */
+    cursor: pointer; /* курсор "рука" */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* лёгкая тень */
-    transition: all 0.2s ease;   /* плавные изменения */
+    transition: all 0.2s ease; /* плавные изменения */
 }
 
 .list-section {
@@ -205,6 +207,10 @@ body {
     box-shadow: 0 5px 20px rgba(0,0,0,0.08); /* Легкая тень */
     border-left: 4px solid #667eea; /* Синяя полоса слева */
     transition: transform 0.3s ease; /* Плавная анимация трансформации */
+}
+
+.label-section:hover {
+    transform: translateX(5px); /* Сдвиг вправо при наведении */
 }
 
 .label-section__text {
