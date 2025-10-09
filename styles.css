@@ -160,6 +160,16 @@ body {
     transition: all 0.2s ease; /* плавные изменения */
 }
 
+.section__button:hover {
+  background-color: rgb(170, 170, 220); /* темнее при наведении */
+  transform: translateY(-2px); /* слегка поднимается */
+  box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+.section__button:active {
+  transform: translateY(0);   /* возвращается при клике */
+}
+
 .list-section {
     display: flex; /* Горизонтальное расположение навыков */
     justify-content: center; /* Выравнивание по центру */
