@@ -141,16 +141,19 @@ body {
 }
 
 .section__link:hover {
-    background: rgba(255,255,255,0.1); /* Полупрозрачный белый фон при наведении */
+    background: rgba(0, 172, 252, 0.1); /* Полупрозрачный белый фон при наведении */
     transform: translateY(-2px); /* Легкое поднятие элемента при наведении */
 }
 
 .section__button {
-    color: #2c3e50;
-    background: #0069d9;
+    background-color: rgb(204, 204, 235);
+    color: #333;
     border: none;
-    cursor: pointer;
-    margin-left: 40px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;          /* скруглённые углы */
+    cursor: pointer;             /* курсор "рука" */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* лёгкая тень */
     transition: all 0.2s ease;   /* плавные изменения */
 }
@@ -192,6 +195,22 @@ body {
 .list-section__label:hover {
     transform: translateY(-3px); /* Поднятие элемента при наведении */
     box-shadow: 0 6px 20px rgba(79, 172, 254, 0.4); /* Увеличение тени при наведении */
+}
+
+.label-section {
+    background: white; /* Белый фон карточки */
+    padding: 25px; /* Внутренние отступы */
+    margin: 20px 0; /* Вертикальные отступы */
+    border-radius: 12px; /* Скругленные углы */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08); /* Легкая тень */
+    border-left: 4px solid #667eea; /* Синяя полоса слева */
+    transition: transform 0.3s ease; /* Плавная анимация трансформации */
+}
+
+.label-section__text {
+    font-size: 18px; /* Размер шрифта группы */
+    color: #2c3e50; /* Темно-синий цвет текста */
+    margin: 5px 0; /* Вертикальные отступы */
 }
 
 .footer {
