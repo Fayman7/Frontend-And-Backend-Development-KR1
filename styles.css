@@ -114,6 +114,13 @@ body {
     margin: 5px 0; /* Вертикальные отступы */
 }
 
+.section__light-text {
+    font-size: 16px; /* Размер шрифта группы */
+    color: #3f4c5a; /* Темно-синий цвет текста */
+    margin: 5px 0; /* Вертикальные отступы */
+    font-weight: 300; /* Легкое начертание шрифта */
+}
+
 .list-section {
     display: flex; /* Горизонтальное расположение навыков */
     justify-content: center; /* Выравнивание по центру */
