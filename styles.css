@@ -2,8 +2,22 @@ body {
     font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e1bd9e 0%, #c68d55 100%);
     min-height: 100vh;
+}
+
+.header {
+    background-color: #d47e29;
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer {
+    background-color: #d47e29;
+    border-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .section {
