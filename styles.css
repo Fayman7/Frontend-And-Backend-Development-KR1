@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ffffff 0%, #ff9100 100%);
+    background: linear-gradient(0deg, #ffffff 0%, #ff9100 100%);
     min-height: 100vh;
 }
 
@@ -11,8 +11,7 @@ body {
     margin: 0 auto;
     background: rgb(255, 255, 255);
     min-height: 100vh;
-    box-shadow: 0 0 30px rgba(0,0,0,0.1);
-    /* Новое: Сеточный макет для семантических областей */
+
     display: grid;
     grid-template-rows: auto auto 1fr auto;
     grid-template-areas: 
@@ -23,18 +22,26 @@ body {
 }
 
 .header {
-    background-color: #d47e29;
-    border-radius: 10px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background-color: #ff8000;
+
+    padding: 10px;
+
+    border-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
     grid-area: header;
 }
 
 .footer {
-    background-color: #d47e29;
-    border-radius: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: #ff8000;
+
+    padding: 10px;
+
+    border-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
     grid-area: footer;
 }
 
