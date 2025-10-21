@@ -99,13 +99,14 @@ main.content {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
     place-items: center;
 }
 
 .tag {
     border-radius: 10px;
-    margin: 100px;
+    padding: 10px;
     background-color: #00000030;
     transition: all 0.3s ease;
 }
@@ -116,9 +117,9 @@ main.content {
 
 .sticker {
     border-radius: 10px;
-    padding: 100px;
-    background-color: #ff80003c;
-    border-left: 5px solid #00000030;
+    padding: 70px 0px;
+    background-color: #00000030;
+    border-left: 5px solid #ff80003c;
 }
 
 .sticker:hover {
