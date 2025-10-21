@@ -63,7 +63,7 @@ body {
 
 main.content {
     grid-area: main;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     background-color: #ff80003c;
     padding: 10px;
     border-radius: 10px;
