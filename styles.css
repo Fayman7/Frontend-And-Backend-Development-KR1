@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, #013457 0%, #020d4b 100%);
+    background: linear-gradient(45deg, #064671 0%, #020d4b 100%);
     min-height: 100vh;
 }
 
@@ -63,6 +63,7 @@ body {
 
 main.content {
     grid-area: main;
+    grid-template-columns: auto;
     background-color: #ff80003c;
     padding: 10px;
     border-radius: 10px;
@@ -123,8 +124,6 @@ main.content {
     background-color: #ff80003c;
 }
 
-/* АДАПТИВНОСТЬ */
-/* Новое: Медиа-запросы для мобильных устройств */
 @media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
