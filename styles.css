@@ -86,9 +86,9 @@ main.content {
 }
 
 .section-aligned-in-center {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
-    place-items: center;
+    justify-content: center;
 
     gap: 20px;
 }
@@ -99,6 +99,7 @@ main.content {
 
 .grid {
     display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: auto;
 }
 
