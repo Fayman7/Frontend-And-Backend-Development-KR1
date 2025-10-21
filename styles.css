@@ -99,8 +99,7 @@ main.content {
 
 .grid {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
 }
 
 .tag {
