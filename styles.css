@@ -99,13 +99,13 @@ main.content {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto, 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     place-items: center;
 }
 
 .tag {
     border-radius: 10px;
-    margin: 30px;
+    margin: 100px;
     background-color: #00000030;
     transition: all 0.3s ease;
 }
@@ -116,8 +116,8 @@ main.content {
 
 .sticker {
     border-radius: 10px;
-    margin: 100px;
-    background-color: antiquewhite;
+    padding: 100px;
+    background-color: #ff80003c;
     border-left: 5px solid #00000030;
 }
 
