@@ -1,3 +1,4 @@
+/*дефолтный общий дезайн*/
 body {
     font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     min-height: 100vh;
 }
 
+/*глобальный дизайн страницы*/
 .page-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -22,6 +24,9 @@ body {
     gap: 10px;
 }
 
+/*главные области сайта по написанные расположению от верха вниз*/
+
+/*хэдэр и все его элементы*/
 .header {
     grid-area: header;
     background-color: #ff8000;
@@ -33,6 +38,7 @@ body {
     place-items: center;
 }
 
+/*навигация и все её элементы*/
 .nav {
     grid-area: nav;
     grid-template-columns: repeat(5, 1fr);
@@ -62,23 +68,14 @@ body {
     transform: translateY(-2px);
 }
 
+
+
+/*!!!меняющийся постранично контент!!!*/
 main.content {
     grid-area: main;
     background-color: #ff80003c;
     padding: 10px;
     border-radius: 10px;
-    place-items: center;
-}
-
-.footer {
-    grid-area: footer;
-    background-color: #ff8000;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    place-items: center;
 }
 
 .section {
@@ -91,13 +88,12 @@ main.content {
 .section-aligned-in-center {
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
-
+    justify-items: center;
     gap: 20px;
 }
 
 .element-aligned-in-center {
-    justify-content: center;
+    justify-items: center;
 }
 
 .grid {
@@ -133,6 +129,21 @@ main.content {
     background-color: #ff80003c;
 }
 
+
+
+/*футэр и все его элементы*/
+.footer {
+    grid-area: footer;
+    background-color: #ff8000;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    place-items: center;
+}
+
+/*адаптация под мобильные устройства*/
 @media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
