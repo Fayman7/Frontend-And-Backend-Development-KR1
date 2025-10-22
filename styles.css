@@ -106,8 +106,8 @@ main.content {
 }
 /*подствечивающийся стикер с несколькими элеметами внутри*/
 .sticker {
-    /*display: flex;
-    justify-content: flex-start; !!!убрал чтобы посмотреть что выйдет*/
+    display: flex;
+    justify-content: flex-start;
     border-radius: 10px;
     padding: 70px auto 70px 20px;
     margin: 0px;
