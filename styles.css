@@ -86,6 +86,7 @@ main.content {
 /*невидимое разделение на логические группы контента*/
 .section {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 /*шаблонная сетка (одна строка)*/
