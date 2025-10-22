@@ -83,6 +83,7 @@ main.content {
     grid-template-rows: auto;
     gap: 20px;
     justify-items: center;
+    padding-bottom: 30px;
 }
 /*шаблонная сетка (одна строка)*/
 .grid-row {
@@ -97,6 +98,7 @@ main.content {
     grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     max-width: 900px;
+    justify-items: normal;
 }
 /*анимированная бирка с один элементом*/
 .tag {
