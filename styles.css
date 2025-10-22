@@ -25,6 +25,7 @@ body {
 .header {
     grid-area: header;
     background-color: #ff8000;
+    color: white;
     padding: 10px;
     border-radius: 30px;
     border-bottom-left-radius: 10px;
@@ -66,11 +67,13 @@ main.content {
     background-color: #ff80003c;
     padding: 10px;
     border-radius: 10px;
+    place-items: center;
 }
 
 .footer {
     grid-area: footer;
     background-color: #ff8000;
+    color: white;
     padding: 10px;
     border-radius: 30px;
     border-top-left-radius: 10px;
@@ -101,24 +104,27 @@ main.content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
+    padding: auto auto;
 }
 
 .tag {
     border-radius: 10px;
     padding: 10px;
+    justify-content: center;
     background-color: #00000030;
+    color: white;
     transition: all 0.3s ease;
 }
 
 .tag:hover {
-    transform: translateY(-3px) scale(1.2);
+    transform: translateY(-3px) scale(1.05);
 }
 
 .sticker {
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
-    padding: 70px 0px 70px 10px;
+    padding: 70px 0px 70px 20px;
     background-color: #00000030;
     border-left: 5px solid #00000010;
 }
