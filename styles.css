@@ -79,15 +79,14 @@ main.content {
 /*невидимое разделение на логические группы контента (выравнена по центру)*/
 .section-aligned-in-center {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
-    justify-content: center;
-    padding-bottom: 30px;
 }
 /*невидимое разделение на логические группы контента*/
 .section {
     display: flex;
     gap: 20px;
-    padding-bottom: 30px;
 }
 /*шаблонная сетка (одна строка)*/
 .grid-row {
