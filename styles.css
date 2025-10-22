@@ -78,18 +78,14 @@ main.content {
 }
 /*невидимое разделение на логические группы контента (выравнена по центру)*/
 .section-aligned-in-center {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    display: flex;
     gap: 20px;
-    justify-items: center;
+    justify-content: center;
     padding-bottom: 30px;
 }
 /*невидимое разделение на логические группы контента*/
 .section {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    display: flex;
     gap: 20px;
     padding-bottom: 30px;
 }
