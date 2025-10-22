@@ -86,7 +86,7 @@ main.content {
 }
 /*отдельный элемент находящийся по центру своей области*/
 .element-aligned-in-center {
-    justify-items: center;
+    justify-content: center;
 }
 /*шаблонная сетка элементов*/
 .grid {
@@ -94,12 +94,13 @@ main.content {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     padding: auto auto;
+    max-width: 900px;
 }
 /*анимированная бирка с один элементом*/
 .tag {
     border-radius: 10px;
     padding: 10px;
-    justify-items: center;
+    justify-content: center;
     background-color: #00000030;
     color: white;
     transition: all 0.3s ease;
