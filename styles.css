@@ -84,10 +84,17 @@ main.content {
     gap: 20px;
     justify-items: center;
 }
-/*шаблонная сетка элементов*/
-.grid {
+/*шаблонная сетка (одна строка)*/
+.grid-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+}
+/*шаблонная сетка (одна колонна)*/
+.grid-column {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     max-width: 900px;
 }
