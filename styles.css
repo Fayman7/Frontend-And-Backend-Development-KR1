@@ -94,7 +94,7 @@ main.content {
 }
 /*анимированная бирка с один элементом*/
 .tag {
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     justify-content: center;
     background-color: #00000030;
@@ -106,8 +106,8 @@ main.content {
 }
 /*подствечивающийся стикер с несколькими элеметами внутри*/
 .sticker {
-    display: flex;
-    justify-content: flex-start;
+    /*display: flex;
+    justify-content: flex-start; !!!убрал чтобы посмотреть что выйдет*/
     border-radius: 10px;
     padding: 70px auto 70px 20px;
     margin: 0px;
