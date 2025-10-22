@@ -43,7 +43,6 @@ body {
     grid-area: nav;
     grid-template-columns: repeat(5, 1fr);
     background-color: #ff8000;
-    padding: 10px;
     border-radius: 10px;
 }
 /*навигационный лист с ссылками на все страницы*/
